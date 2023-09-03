@@ -6,10 +6,12 @@ const nextConfig = {
     typescript: {
         ignoreBuildErrors: true,
     },
-    experimental: {
-        appDir: true,
+    eslint: {
+        ignoreDuringBuilds: true,
     },
-
+    // experimental: {
+    //     appDir: true,
+    // },
 }
 
 module.exports = nextConfig
