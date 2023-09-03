@@ -11,6 +11,10 @@
   font-family: "Manrope", sans-serif;
 }
 
+body {
+  background-color: #e6fff7;
+}
+
 .carr{
   transform: translate(140px, -50px);
 }
